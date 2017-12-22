@@ -7,18 +7,18 @@ As all of us know, the shortest time for human being is 100ms. There's a [simple
 But this test is affected by the latency of your computer and monitor. Using a fast computer, wired mouse, and low latency / high framerate monitor will improve your score in this test. View [this](https://www.humanbenchmark.com/tests/reactiontime/statistics) for more detail.
 
 ### The Issue
-When I visit [leaderbord](https://www.humanbenchmark.com/tests/reactiontime/leaderboard) of this test, I found someone use some cheating method to make themselves become the top in this test. The top seems a CSOL player, but he claims that he uses javascript for the test. The 2nd and 3rd might use Console Debugger and Breakpoints in Google Chrome to make them(it) to the top. I tried but I'm not a web programmer and don't know how it works.
+When I visit [leaderboard](https://www.humanbenchmark.com/tests/reactiontime/leaderboard)of this test, I found someone use some cheating method to make themselves become the top of this test. The top seems a CSOL player, but he claims that he uses javascript for the test. The 2nd and 3rd might use Console Debugger and Breakpoints in Google Chrome to make them(it) to the top. I tried but I'm not a web programmer and don't know how it works.
 
-As a smart A.S.S programmer, I remind that using C/C++ to fetch color on the screen and emulates mouse clicking. So I copy and paste some codes and make this Fanytastic Sootuff. 
+As a smart A.S.S programmer, I remind that C/C++ can fetch color on the screen and emulates mouse clicking. So I copy, paste and modify some codes and make this Fanytastic Sootuff. 
 
 ### The Theory
-`COLORREF` to get the color on a certain pixel, `SetCursorPos` and `mouse_event` to emulates mouse clicks, `Sleep()` for delay to make computer "knows" it's from a human not a machine. If there's no delay or the delay time is short in your code, it'll display  "Too Soon!"  because computer recognized that the result is made by machine.
+`COLORREF` to get the color on a certain pixel, `SetCursorPos` and `mouse_event` to emulate mouse clicks, `Sleep()` for delay to make computer "knows" it's from a human not a machine. If there's no delay or the delay time is too short in your program, it'll display  "Too Soon!"  because computer recognized that the result is made by machine.
 
 ### The Test
-I adjust value in `Sleep()` to optimize the final result because of the fluctation of reaction time in basic I/O systems.
+I adjust value in `Sleep()` to optimize the final result because of the fluctation of response time in basic I/O system.
 
 ### The Result
-101ms, the 5th on the leaderbord.
+101ms, the 5th on the leaderboard.
 
 ### The Usage
 1. Download the code.
