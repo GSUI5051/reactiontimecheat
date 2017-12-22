@@ -1,5 +1,5 @@
 # Reaction Time Cheat(reactiontimecheat)
-a C++ cheat program for a reaction time test
+A CLI-based C++ cheat program for a reaction time test.
 
 ### The Foreword
 As all of us know, the shortest time for human being is 100ms. There's a [simple online tool](https://www.humanbenchmark.com/tests/reactiontime) to measure your reaction time.
