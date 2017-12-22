@@ -12,10 +12,10 @@ When I visit [leaderbord](https://www.humanbenchmark.com/tests/reactiontime/lead
 As a smart A.S.S programmer, I remind that using C/C++ to fetch color on the screen and emulates mouse clicking. So I copy and paste some codes and make this Fanytastic Sootuff. 
 
 ### The Theory
-`COLORREF` to get the color on a certain pixel, `SetCursorPos` and `mouse_event` to emulates mouse clicks, `Sleep()` for delay to make computer "knows" it's from a human not a machine. If there's no delay in your code, it'll display  "Too Soon!"  because computer recognize that the result is made by machine.
+`COLORREF` to get the color on a certain pixel, `SetCursorPos` and `mouse_event` to emulates mouse clicks, `Sleep()` for delay to make computer "knows" it's from a human not a machine. If there's no delay or the delay time is short in your code, it'll display  "Too Soon!"  because computer recognized that the result is made by machine.
 
 ### The Test
-I modifying value in `Sleep()` to optimize the final result because of the fluctation of reaction time in basic I/O systems.
+I adjust value in `Sleep()` to optimize the final result because of the fluctation of reaction time in basic I/O systems.
 
 ### The Result
 101ms, the 5th on the leaderbord.
